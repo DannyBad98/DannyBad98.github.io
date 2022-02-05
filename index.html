@@ -1,72 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel's personal site</title>
+    <title>Daniel Cabrera</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-
-            <td><img src="img/myphoto.png" alt="my profile picture" width="200px"></td>
-            <td>
-                <h1>Daniel Cabrera</h1>
-                <p><em> Web developer junior </em> </p>
-                <p> I am a web developer learner. </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Hobbies</h3>
-    <ul>
-        <li>Do exercise</li>
-        <li>Play videogames with friends</li>
-    </ul>
-    <hr>
-    <h3>Work experience</h3>
-    <table cellspacing='10'>
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2021</td>
-                <td>Support analyst</td>
-            </tr>
-            <tr>
-                <td>2020</td>
-                <td>front end developer</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing='10'>
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Bootstrap</td>
-            <td>⭐</td>
-        </tr>
-        <tr>
-            <td>React</td>
-            <td>⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="contact-me.html">Contact me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud">
+        <h1>i'm daniel</h1>
+        <h2>a web developer learner</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+        <img src="images/mountain.png" alt="mountain">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/myphoto.png" alt="profile photo" class="profile-img">
+          <h2 class="profile-meeting">Hello.</h2>
+          <p class="profile-description">I am a web developer learner, I have recently graduated from college and I am now working as a support analyst, but I am interested in web development and I am very excited to start my developer carreer. 👨‍💻 </p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="code-image" src="https://media4.giphy.com/media/QssGEmpkyEOhBCb7e1/200w.webp?cid=ecf05e47wwhtygsz9c6070gvou8kci0lqv64rwwitnhfpxh0&rid=200w.webp&ct=s" alt="coding image">
+            <h3>Web Development</h3>
+            <p>I have worked for Tecnologias Longbit as a front end trainee for about 2 months, I have designed the webpage for <a href="http://eskaconsultores.com.mx/">ESKA Consultores S,C</a> and I have also developed personal projects available on my GitHub</p>
+          </div>
+          <div class="skill-row">
+            <img class="computer-image" src="images/idea.gif" alt="computer image">
+            <h3>Problem Solving</h3>
+            <p class="skill-description">I also like to repair computers, in fact I like to solve problems and that is why I have worked as a technical support analyst in Stefanini and in ELIC</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Let's build something</h3>
+          <p class="contact-message">Let my projects talk for me, see my github projects</p>
+          <a class="btn" href="mailto:dcabrerabad98@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/daniel-cabrera-79907018a/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/DannyBad98">GitHub</a>
+        <p class="copyright">© Daniel Cabrera.</p>
+      </div>
 </body>
-
 </html>
